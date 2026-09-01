@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>2D Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="body" onload="IdleAnimationStart(); CreateCactus()"  onkeypress="KeyCheck(event);">
+
+        <div class="background" id="background">
+
+            <img src="resources/Idle (1).png" class="dino" id="dino"/>
+
+            <div class="score" id="score">0</div>
+
+        </div>
+
+        <div class="end" id="end">
+
+            <div style="color: rgb(3, 82, 119);" class="gameover">Game Over</div>
+
+            <div style="color: rgb(252, 249, 246);" class="yourscore">Your Score</div>
+
+            <div style="color: crimson;" id="endScore" class="endscore">0</div>
+
+            <button style="color: rgb(77, 131, 66);" class="button" onclick="reload();">Try Again</button>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
