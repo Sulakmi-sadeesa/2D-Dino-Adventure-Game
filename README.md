@@ -14,7 +14,6 @@ A fun 2D browser game where players control a dinosaur, jump over obstacles, col
       HTML
       CSS
       JavaScript
-      Java
       
 🚀 How to Run
       Download or clone the repository.
